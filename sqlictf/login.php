@@ -97,7 +97,7 @@ span.psw {
 
 <h2>Login Form</h2>
 
-<form action="<?php if($hint == 'ok'){ echo "/sqlictf/login.php?hint=ok";}else {echo "/sqlictf/login.php";}?>" method="post">
+<form action="<?php if($hint == 'ok'){ echo "login.php?hint=ok";}else {echo "login.php";}?>" method="post">
   <div class="imgcontainer">
     <img src="ave.png" alt="Avatar" class="avatar">
   </div>
@@ -121,7 +121,7 @@ span.psw {
 
   <div class="container" style="background-color:#f1f1f1">
     <button type="button" class="cancelbtn">Cancel</button>
-    <span class="psw">HELP ME:<a href="/sqlictf/login.php?hint=ok">Hint</a></span>
+    <span class="psw">HELP ME:<a href="login.php?hint=ok">Hint</a></span>
   </div>
 </form>
 
